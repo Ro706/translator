@@ -14,7 +14,7 @@ language = 'en'
 output1=gTTS(text=translation,lang=language)
 output1.save('trans.mp3')
 for i in tqdm(range(100)):
-    time.sleep(0.2)
+    time.sleep(0.0002)
 os.system("mpv /data/data/com.termux/files/home/trans.mp3")
 
 
